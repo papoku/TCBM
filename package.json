@@ -20,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "stop": "taskkill -F -IM node.exe",
-    "start-prod": "npm run build && node Server.js"
+    "start-prod": "node Server.js"
   },
   "proxy": "http://localhost:8080",
   "eslintConfig": {
