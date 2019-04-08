@@ -1,1 +1,8 @@
 node_modules
+
+#.gitignore
+src/*
+public/*
+build/static/css/*.map
+build/static/js/components/*.map
+build/static/js/helpers/*.map
