@@ -1,8 +1,21 @@
-node_modules
-
 #.gitignore
-src/*
-public/*
-build/static/css/*.map
-build/static/js/components/*.map
-build/static/js/helpers/*.map
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
